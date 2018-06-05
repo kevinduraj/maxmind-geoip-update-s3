@@ -18,9 +18,9 @@ import java.io.File
 
 /**
   * AWS S3 Examples: 
-  * aws s3 ls s3://production-ma-analytics-bin/geoip2/
-  * aws s3 rm s3://production-ma-analytics-bin/geoip2/GeoLite2-City-20171107.mmdb
-  * curl -SsL http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz | tar -zxvf -
+  * aws s3 ls s3://kduraj/geoip2/
+  * aws s3 rm s3://kduraj/geoip2/GeoLite2-City-20171107.mmdb
+  * curl -SsL http://kduraj/download/geoip/database/GeoLite2-City.tar.gz | tar -zxvf -
   */
 object UpdateGeoIPDatabase {
 
